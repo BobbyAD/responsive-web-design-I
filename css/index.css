@@ -187,7 +187,7 @@ header a:hover {
 .cta {
 	display: flex;
 	align-items: center;
-	height: 475px;
+	min-height: 475px;
 	justify-content: space-around;
 }
 
@@ -217,7 +217,7 @@ header a:hover {
 	padding: 45px 0;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 650px;
+	min-height: 650px;
 }
 
 .top-content {
@@ -295,6 +295,7 @@ header a:hover {
 }
 
 .contact {
+    display: flex;
 	margin-top: 57px;
 	border-top: 1px solid black;
 	padding: 39px 10px 0;
@@ -365,7 +366,7 @@ footer {
 
     .cta {
         flex-direction: column;
-        height: 405px;
+        min-height: 405px;
         justify-content: flex-start;
     }
 
@@ -393,7 +394,7 @@ footer {
         margin: 0;
         padding:  0;
         justify-content: flex-start;
-        height: 533px;
+        min-height: 533px;
     }
 
     .main-content .top-content {
@@ -431,6 +432,7 @@ footer {
         align-self: center;
         border-top: 2px solid black;
         width: 95%;
+        margin-top: 35px;
         padding: 35px 10px 0;
     }
     .contact p {
@@ -446,5 +448,86 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-
+    container {
+        flex-direction: column;
+    }    
+    header {
+        align-items: center;
+    }
+    header .logo {
+        padding: 0;
+        margin: 10px;
+    }
+    header .nav-links{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #b0b0b0;
+    }
+    header .nav-links a {
+        margin-top: 10px;
+        padding: 20px 0 10px;
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-top: 1px solid #b0b0b0;
+    }
+    .cta {
+        min-height: 383px;
+    }
+    .cta .cta-text {
+        margin: 34px;
+    }
+    .main-content {
+        width: 92%;
+        align-self: center;
+        border-top: 2px solid black;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+        min-height: 533px;
+    }
+    .main-content .top-content {
+        flex-direction: column;
+        padding: 18px 0;
+    }
+    .main-content .top-content .text-content {
+        width: 100%;
+        margin: 0;
+        padding: 41px 0 0;
+        font-size: 16px;
+    }
+    .main-content .middle-img {
+        margin-top: 35px;
+        height: 95px;
+    }
+    .main-content .bottom-content {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .main-content .bottom-content .text-content {
+        width: 100%;
+        margin: 0;
+        padding: 31px 0 ;
+        font-size: 16px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        border-top: 2px solid black;
+        width: 92%;
+        margin-top: 8px;
+        padding: 35px 0 0;
+    }
+    .contact p {
+        margin: 0;
+        margin-bottom: 15px;
+    }
 }
