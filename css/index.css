@@ -349,6 +349,8 @@ footer {
     header {
         flex-direction: column;
         justify-content: space-evenly;
+        margin: 0;
+        padding: 10px 0;
     }
 
     header .logo {
@@ -370,14 +372,14 @@ footer {
 
     .cta {
         flex-direction: column;
-        min-height: 405px;
+        min-height: 390px;
         justify-content: flex-start;
     }
 
     .cta .cta-text {
         display: flex;
         flex-direction: column;
-        margin: 55px;
+        margin: 60px 0 0;
         font-size: 72px;
         justify-content: space-evenly;
     }
@@ -388,7 +390,7 @@ footer {
 
     .cta .cta-text button {
         margin: 12px 60px;
-        padding: 5px;
+        padding: 5px 45px;
     }
 
     .main-content {
@@ -398,7 +400,7 @@ footer {
         margin: 0;
         padding:  0;
         justify-content: flex-start;
-        min-height: 533px;
+        min-height: 555px;
     }
 
     .main-content .top-content {
@@ -420,7 +422,7 @@ footer {
     }
 
     .main-content .bottom-content {
-        padding: 29px 10px 0;
+        padding: 0 10px;
         justify-content: space-between;
     }
 
@@ -428,7 +430,7 @@ footer {
         width: 31.5%;
         font-size: 16px;
         line-height: 18px;
-        padding-right: 20px;
+        padding: 26px 20px 0 0;
     }
     .contact {
         display: flex;
