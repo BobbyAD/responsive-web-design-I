@@ -246,6 +246,10 @@ header a:hover {
 	font-size: 24px;
 }
 
+.services-header-img {
+    object-fit: none;
+}
+
 .top-content .text-content {
     width: 49.5%;
     font-size: 16px;
