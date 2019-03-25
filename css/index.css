@@ -156,7 +156,8 @@ h5 {
 }
 
 .container {
-	width: 880px;
+    max-width: 880px;
+    width: 100%;
 	/* TB LR */
     display: flex;
     flex-direction: column;
@@ -402,6 +403,14 @@ footer {
         justify-content: flex-start;
         min-height: 555px;
     }
+    .services-header-img {
+        padding: 20px 0;
+    }
+    .top-content-services {
+        margin: 10px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid black;
+    }
 
     .main-content .top-content {
         padding: 35px 0 30px;
@@ -431,6 +440,9 @@ footer {
         font-size: 16px;
         line-height: 18px;
         padding: 26px 20px 0 0;
+    }
+    .bottom-content-services {
+        flex-direction: row;
     }
     .contact {
         display: flex;
@@ -522,6 +534,17 @@ footer {
         margin: 0;
         padding: 31px 0 ;
         font-size: 16px;
+    }
+    .services-header-img {
+        padding: 20px 0;
+    }
+    .top-content-services {
+        margin: 10px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid black;
+    }
+    .bottom-content-services {
+        flex-direction: column;
     }
     .contact {
         display: flex;
